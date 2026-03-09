@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio - Contact</title>
+
+    <style>
+        * {
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #fff9c4, #ffcc00);
+            color:#333;
+        }
+
+        nav {
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            padding:20px 60px;
+            background:#ffcc00;
+        }
+
+        nav .logo {
+            font-weight:bold;
+            font-size:18px;
+        }
+        
+        nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0 auto; /* THIS centers the links */
+}
+        nav ul {
+            list-style:none;
+            display:flex;
+            gap:30px;
+        }
+
+        nav ul li a {
+            text-decoration:none;
+            color:#333;
+            font-weight:bold;
+            transition:0.3s;
+        }
+
+        nav ul li a:hover {
+            color:white;
+        }
+
+        .container {
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            padding:80px 60px;
+        }
+
+        .image-left, .image-right {
+            width:25%;
+        }
+
+        .image-left img, .image-right img {
+            width:100%;
+            border-radius:20px;
+            box-shadow:0 8px 20px rgba(0,0,0,0.2);
+        }
+
+        .contact-box {
+            width:40%;
+            background:white;
+            padding:40px;
+            border-radius:20px;
+            text-align:center;
+            box-shadow:0 10px 25px rgba(0,0,0,0.1);
+        }
+
+        .contact-box h1 {
+            margin-bottom:20px;
+        }
+
+        .contact-box p {
+            font-size:18px;
+            margin:10px 0;
+        }
+
+        .btn {
+            display:inline-block;
+            margin-top:20px;
+            padding:12px 25px;
+            background:#333;
+            color:#ffcc00;
+            text-decoration:none;
+            border-radius:25px;
+            transition:0.3s;
+        }
+
+        .btn:hover {
+            background:#ffcc00;
+            color:#333;
+        }
+
+        @media (max-width:900px){
+            .container {
+                flex-direction:column;
+                text-align:center;
+            }
+
+            .image-left, .image-right, .contact-box {
+                width:100%;
+                margin-bottom:30px;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+
+<nav>
+    <div class="logo">My Portfolio</div>
+    <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about me.html">About</a></li>
+         <li><a href="project.html">My Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+<section class="container">
+
+    <div class="image-left">
+        <img src="Ig.jpeg" alt="Left Photo">
+        <h4>INSTAGRAM</h4>
+        <p>chaan_n03</p>
+    </div>
+
+    <div class="contact-box">
+        <h1>Contact Me</h1>
+        <p>📞 09387166095</p>
+        <p>📧 codillarycha@gmail.com</p>
+        
+    </div>
+
+    <div class="image-right">
+        <img src="fb.jpeg" alt="Right Photo">
+        <h4>FACEBOOK</h4>
+        <p>Rycha Ann Codilla</p>
+    </div>
+
+</section>
+
+</body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio - Projects</title>
+
+    <style>
+        * { margin:0; padding:0; box-sizing:border-box; }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #fff9c4, #ffcc00);
+            text-align: center;
+            color: #333;
+        }
+
+        nav {
+            background:#ffcc00;
+            padding:15px;
+            animation: slideDown 1s ease;
+        }
+
+        nav a {
+            text-decoration:none;
+            color:#333;
+            font-weight:bold;
+            margin:0 15px;
+            transition:0.3s;
+        }
+
+        nav a:hover { color:white; }
+
+        h1 {
+            margin:40px 0 20px;
+            animation: fadeIn 2s ease;
+        }
+
+        .project {
+            background:white;
+            width:50%;
+            margin:20px auto;
+            padding:25px;
+            border-radius:15px;
+            box-shadow:0 8px 20px rgba(0,0,0,0.1);
+            transition:0.3s;
+            animation: fadeIn 2s ease;
+        }
+
+        .project img {
+            width:50%;
+            height:400px;
+            object-fit:cover;
+            border-radius:20px;
+            margin-bottom:15px;
+        }
+
+        .project:hover {
+            transform:scale(1.05);
+        }
+
+        @keyframes fadeIn {
+            from {opacity:0;}
+            to {opacity:1;}
+        }
+
+        @keyframes slideDown {
+            from {transform:translateY(-100%);}
+            to {transform:translateY(0);}
+        }
+    </style>
+</head>
+
+<body>
+
+<nav>
+    <a href="home.html">Home</a>
+    <a href="project.html">My Projects</a>
+    <a href="about me.html">About Me</a>
+    <a href="contacts.html">Contact</a>
+</nav>
+
+<h1>My Projects</h1>
+
+<div class="project">
+    <img src="landscape.jpg" alt="Project 1 Image">
+    <h4>OBRA MAESTRA</h4>
+    <p>“Obra maestra” is a Spanish term meaning “masterpiece.”
+ It refers to an outstanding work of art, literature, music, or craftsmanship that
+ demonstrates exceptional skill, creativity, and excellence..</p>
+</div>
+
+<div class="project">
+    <img src="recreational.jpeg" alt="Project 2 Image">
+    <h4>RECREATIONAL PORTRAIT</h4>
+    <p>A recreational portrait is a casual and expressive photograph or
+ artwork created for enjoyment rather than formal or professional purposes. It captures personality,
+ mood, and natural moments in a relaxed and creative style..</p>
+</div>
+
+<div class="project">
+    <img src="robotcar.jpeg" alt="Project 3 Image">
+    <h4>SMART ROBOT CAR</h4>
+    <p>A smart robot car is an intelligent, programmable vehicle equipped with sensors,
+ cameras, and microcontrollers that allow it to navigate, detect obstacles,
+ and follow commands autonomously or via remote control. It is commonly used in robotics education,
+ automation research, and hobby projects..</p>
+</div>
+
+<div class="project">
+    <img src="soil.jpeg" alt="Project 4 Image">
+    <h4>SOIL DEGRADATION APP</h4>
+    <p>Soil Degradation App helps Filipino farmers monitor and restore soil health with easy-to-use tools, smart fertilizer guidance, and region-specific farming tips. 
+It empowers sustainable farming, boosts crop productivity, and protects the land for future generations...</p>
+</div>
+
+<div class="project">
+    <img src="diorama.jpeg" alt="Project 5 Image">
+    <h4>DIORAMA</h4>
+    <p>This image shows a sustianable city diorama made from cardboard and craft materials.
+ It features small houses with red roofs, roads with lane markings, trucks, streetlights with glowing fairy lights, trees, and farm elements like a tractor and animals. 
+The detailed layout and lighting give the model a realistic and charming small-town atmosphere...</p>
+</div>
+
+</body>
+</html>

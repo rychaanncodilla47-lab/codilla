@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About Me - Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', serif;
+            background: #fff9c4;
+            color: #222;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px 60px;
+            background: #ffcc00;
+        }
+
+        nav .logo {
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 30px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #222;
+            font-weight: 500;
+            transition: 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: white;
+        }
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0 auto; /* THIS centers the links */
+}
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 80px 60px;
+        }
+
+        .text-section {
+            width: 50%;
+        }
+
+        .text-section h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        .text-section p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 25px;
+            background: #222;
+            color: #ffcc00;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: white;
+            color: #222;
+        }
+
+        .image-section {
+            width: 40%;
+        }
+
+        .image-section img {
+            width: 100%;
+            border-radius: 20px;
+        }
+
+        @media (max-width: 900px) {
+            .container {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .text-section, .image-section {
+                width: 100%;
+            }
+
+            .text-section h1 {
+                font-size: 36px;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+
+<nav>
+    <div class="logo">My Portfolio</div>
+    <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about me.html">About</a></li>
+        <li><a href="project.html">My Projects</a></li>
+        <li><a href="contacts.html">Contact</a></li>
+    </ul>
+</nav>
+
+<section class="container">
+
+    <div class="text-section">
+        <h1>About Me</h1>
+        <p>
+            I am a passionate individual who loves exploring new experiences 
+            and learning different things every day.
+        </p>
+        <p>
+            I enjoy cooking, eating good food, and playing online games 
+            during my free time. I believe creativity and curiosity 
+            help us grow as individuals.
+        </p>
+    </div>
+
+    <div class="image-section">
+        <img src="profile.jpeg" alt="My Photo">
+    </div>
+
+</section>
+
+</body>
+</html>
